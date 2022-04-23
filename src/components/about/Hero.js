@@ -8,7 +8,7 @@ function Hero() {
       className="bg-about-background bg-cover text-slate-600 min-h-screen bg-fixed"
     >
       <div className="min-h-screen bg-gradient-to-t from-white flex flex-col justify-end items-center">
-        <div className="w-full sm:max-w-4xl px-5 pt-24 pb-20 sm:pb-32 rounded-t-3xl flex flex-col items-center bg-slate-50 relative">
+        <div className="w-full sm:max-w-4xl px-5 pt-24 pb-32 sm:pb-32 rounded-t-3xl flex flex-col items-center bg-slate-50 relative">
           <img
             src="/img/profile.jpg"
             alt="profile"
