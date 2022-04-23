@@ -3,9 +3,12 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 function Hero() {
   return (
-    <section className="bg-about-background bg-cover text-slate-600 min-h-screen bg-fixed">
-      <div className="min-h-screen bg-gradient-to-t from-white flex flex-col justify-end items-center ">
-        <div className="w-full sm:max-w-4xl px-5 pt-24 pb-5 rounded-t-3xl flex flex-col items-center bg-slate-50 relative">
+    <section
+      id="hero"
+      className="bg-about-background bg-cover text-slate-600 min-h-screen bg-fixed"
+    >
+      <div className="min-h-screen bg-gradient-to-t from-white flex flex-col justify-end items-center">
+        <div className="w-full sm:max-w-4xl px-5 pt-24 pb-20 sm:pb-32 rounded-t-3xl flex flex-col items-center bg-slate-50 relative">
           <img
             src="/img/profile.jpg"
             alt="profile"
@@ -18,15 +21,6 @@ function Hero() {
           <h3 className="uppercase font-bold  text-transparent bg-clip-text bg-gradient-to-r from-gray-500  to-gray-900 mb-5">
             Jr. Front End Developer
           </h3>
-
-          <div className="space-x-3 mb-5">
-            <button className="uppercase border-slate-600 border-2 px-2 py-1 font-bold">
-              What I know
-            </button>
-            <button className="uppercase border-slate-600 border-2 px-2 py-1 font-bold">
-              Projects
-            </button>
-          </div>
 
           <p className="flex items-center">
             Scroll down <AiOutlineArrowDown />

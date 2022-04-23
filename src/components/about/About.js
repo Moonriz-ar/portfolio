@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="min-h-screen">
+    <section id="user" className="min-h-screen">
       <ul>
         <li>Located in Buenos Aires, Argentina</li>
         <li>
