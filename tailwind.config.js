@@ -6,6 +6,9 @@ module.exports = {
         ibm: ["IBM Plex Serif", "serif"],
         square: ["Square Peg", "cursive"],
       },
+      backgroundImage: {
+        "about-background": "url('../public/img/about-background.jpg')",
+      },
     },
   },
   plugins: [],
