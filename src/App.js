@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-ibm text-sm sm:text-base scroll-smooth text-slate-800 absolute inset-0">
+    <div className="font-ibm text-sm sm:text-base scroll-smooth text-slate-800">
       <Nav />
       <Hero />
       <About />
