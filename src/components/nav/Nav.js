@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 import { AiFillHome } from "react-icons/ai";
 import { FaUser } from "react-icons/fa";
@@ -7,9 +8,14 @@ import { FaLaptopCode } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState("#hero");
+
   return (
-    <nav className="flex bg-slate-900/40 max-w-fit px-3 py-2 z-10 fixed text-slate-100 bottom-3 sm:bottom-10 left-1/2 -translate-x-1/2 rounded-lg backdrop-blur-sm space-x-4">
-      <a href="#hero" className="flex flex-col items-center hover:text-white">
+    <nav className="flex bg-slate-900/75 max-w-fit px-3 py-2 z-10 fixed text-slate-200 bottom-3 sm:bottom-10 left-1/2 -translate-x-1/2 rounded-lg backdrop-blur-sm space-x-4">
+      <a
+        href="#hero"
+        className="flex flex-col items-center hover:text-white text-lime-400"
+      >
         <AiFillHome />
         <p>Home</p>
       </a>

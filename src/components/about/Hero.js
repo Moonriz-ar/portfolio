@@ -23,7 +23,10 @@ function Hero() {
           </h3>
 
           <p className="flex items-center">
-            Scroll down <AiOutlineArrowDown />
+            Scroll down{" "}
+            <span className="animate-bounce ml-3">
+              <AiOutlineArrowDown />
+            </span>
           </p>
         </div>
       </div>
