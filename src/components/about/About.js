@@ -2,24 +2,32 @@ import React from "react";
 
 function About() {
   return (
-    <section
-      id="user"
-      className="w-full sm:max-w-3xl px-5 sm:px-16 pb-12 rounded-b-3xl flex flex-col bg-slate-50 mx-auto space-y-2"
-    >
-      <h3 className="text-xl font-bold pb-3">A little about me...</h3>
-      <p>
-        I am a Junior Front End developer located in{" "}
-        <b>Buenos Aires, Argentina</b>.
-      </p>
-      <p>
-        During 7 years I have been working as sales professional in IT industry,
-        where I learnt a lot about teamwork and working on objectives.
-      </p>
-      <p>
-        Since December 2021, I have been following a roadmap and learnt
-        consistently about front end web development, and when the site comes
-        together it is the best feeling!
-      </p>
+    <section id="user" className="px-5 flex justify-center">
+      <div className="flex flex-col justify-center space-y-3 px-5 bg-slate-50 w-full sm:max-w-3xl rounded-b-3xl sm:px-16 pb-12">
+        <h3 className="font-square text-4xl am:text-5xl font-bold pb-3">
+          Who am I ?
+        </h3>
+        <p>
+          I'm Andre, a Junior Front End developer located in{" "}
+          <b className="text-slate-700">Buenos Aires, Argentina</b>.
+        </p>
+        <p>
+          During 7 years I have worked as sales professional in IT industry,
+          where I learnt a lot about{" "}
+          <b className="text-slate-700">teamwork and working on objectives</b>.
+        </p>
+        <p>
+          Since December 2020, I have been following a roadmap and learnt
+          consistently about front end web development.{" "}
+          <b className="text-slate-700">My learning process</b> is to first
+          watch a video playlist about the topic, practice with Codecademy or
+          FreeCodeCamp and finally put it in practice with a project.
+        </p>
+        <p>
+          What I love most is when the site comes together, it is the best
+          feeling!
+        </p>
+      </div>
     </section>
   );
 }
