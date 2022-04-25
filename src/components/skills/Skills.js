@@ -16,9 +16,9 @@ function Skills() {
         <div className="w-full sm:max-w-3xl px-5 sm:px-16 py-10  bg-slate-50 space-y-3">
           <Title title="Skills." />
 
-          {/* FOUNDATIONAL SKILLS */}
           <section className="text-slate-50 space-y-3 sm:max-w-sm flex flex-col m-auto text-center">
-            <article className="bg-gradient-to-r from-teal-900  to-teal-600 rounded-xl p-4">
+            {/* FOUNDATIONAL SKILLS */}
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
                 Foundational
               </h4>
@@ -39,8 +39,7 @@ function Skills() {
             </article>
 
             {/* Frameworks */}
-
-            <article className="bg-gradient-to-r from-teal-900  to-teal-600 rounded-xl p-4">
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
                 Frameworks
               </h4>
@@ -61,8 +60,7 @@ function Skills() {
             </article>
 
             {/* Testing */}
-
-            <article className="bg-gradient-to-r from-teal-900  to-teal-600 rounded-xl p-4">
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
                 Testing
               </h4>
