@@ -79,6 +79,37 @@ function Skills() {
                 </div>
               </section>
             </article>
+
+            {/* Testing */}
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4">
+              <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
+                Soft Skills
+              </h4>
+              <section className="flex justify-start text-left">
+                <p>
+                  Fluent in{" "}
+                  <a
+                    href="https://www.efset.org/cert/ccaeDA"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <b className="text-emerald-400">English (C2 Proficient)</b>
+                  </a>
+                  . Team player. Will keep learning! Currently scholarship
+                  student in 
+                  <a
+                    href="https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <b className="text-emerald-400">
+                      Digital House "Certified Tech Developer"
+                    </b>
+                  </a>
+                  , classes every night until December 2023.
+                </p>
+              </section>
+            </article>
           </section>
         </div>
       </div>
