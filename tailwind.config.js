@@ -8,6 +8,7 @@ module.exports = {
       },
       backgroundImage: {
         "about-background": "url('../public/img/about-background.jpg')",
+        "skills-background": "url('../public/img/flower-pattern.jpg')",
       },
     },
   },

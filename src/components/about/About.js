@@ -1,12 +1,11 @@
 import React from "react";
+import Title from "../Title";
 
 function About() {
   return (
-    <section id="user" className="px-5 flex justify-center">
-      <div className="flex flex-col justify-center space-y-3 px-5 bg-slate-50 w-full sm:max-w-3xl rounded-b-3xl sm:px-16 pb-12">
-        <h3 className="font-square text-4xl am:text-5xl font-bold pb-3">
-          Who am I ?
-        </h3>
+    <section id="about" className="px-5 flex justify-center">
+      <div className="flex flex-col justify-center space-y-3 px-5 bg-slate-50 w-full sm:max-w-3xl sm:px-16 pb-12">
+        <Title title="Who am I ?" />
         <p>
           I'm Andre, a Junior Front End developer located in{" "}
           <b className="text-slate-700">Buenos Aires, Argentina</b>.
