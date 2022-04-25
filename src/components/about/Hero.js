@@ -5,10 +5,10 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="bg-about-background bg-cover text-slate-600 min-h-screen bg-fixed"
+      className="bg-about-background bg-cover min-h-screen bg-fixed"
     >
       <div className="min-h-screen bg-gradient-to-t from-white flex flex-col justify-end items-center">
-        <div className="w-full sm:max-w-4xl px-5 pt-24 pb-32 sm:pb-32 rounded-t-3xl flex flex-col items-center bg-slate-50 relative">
+        <div className="w-full sm:max-w-3xl px-5 pt-24 pb-32 rounded-t-3xl flex flex-col items-center bg-slate-50 relative">
           <img
             src="/img/profile.jpg"
             alt="profile"
@@ -18,7 +18,7 @@ function Hero() {
           <h1 className="font-square text-5xl font-bold  text-transparent md:text-8xl bg-clip-text bg-gradient-to-r from-gray-500  to-gray-900">
             Andrea Lin
           </h1>
-          <h3 className="uppercase font-bold  text-transparent bg-clip-text bg-gradient-to-r from-gray-500  to-gray-900 mb-5">
+          <h3 className="uppercase font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-500  to-gray-900 mb-5">
             Jr. Front End Developer
           </h3>
 
