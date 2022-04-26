@@ -2,7 +2,7 @@ import React from "react";
 
 function Reminder() {
   return (
-    <div className="text-slate-200">
+    <div className="text-slate-300">
       <p>Try the app with following login:</p>
       <ul>
         <li>

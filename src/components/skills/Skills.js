@@ -80,11 +80,9 @@ function Skills() {
               </section>
             </article>
 
-            {/* Soft Skills */}
-            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow ">
-              <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
-                Soft Skills
-              </h4>
+            {/* More about me */}
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-5 drop-shadow ">
+              <h4 className="text-lg pb-3 font-bold ">More about me.</h4>
               <section className="flex justify-start text-left">
                 <p>
                   Fluent in{" "}
@@ -97,15 +95,25 @@ function Skills() {
                       English (C2 Proficient)
                     </b>
                   </a>
-                  . Team player. Will keep learning! Currently scholarship
-                  student in 
+                  . Team player. Will keep learning! Currently accelerating my
+                  skills in the{" "}
+                  <a
+                    href="https://www.alkemy.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <b className="text-emerald-400 hover:text-emerald-300 underline font-bold underline-offset-2">
+                      Front End React Skill Up @Alkemy
+                    </b>
+                  </a>{" "}
+                  until June 2022. Currently scholarship student  
                   <a
                     href="https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <b className="text-emerald-400 hover:text-emerald-300 underline font-bold underline-offset-2">
-                      Digital House "Certified Tech Developer"
+                      @Digital House "Certified Tech Developer"
                     </b>
                   </a>
                   , classes every night until December 2023.
