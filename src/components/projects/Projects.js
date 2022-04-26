@@ -5,7 +5,6 @@ import ProjectCard from "./ProjectCard.js";
 import { projects } from "./projects-data.js";
 
 function Projects() {
-  console.log(projects);
   return (
     <section
       id="projects"

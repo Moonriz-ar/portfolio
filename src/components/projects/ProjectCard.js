@@ -39,7 +39,7 @@ function ProjectCard({ project }) {
             href={project.demoLink}
             target="_blank"
             rel="noreferrer"
-            className="px-2 py-1 bg-emerald-500 text-green-900 rounded font-extrabold uppercase"
+            className="px-2 py-1 bg-emerald-500 hover:bg-emerald-400 text-green-900 rounded font-extrabold uppercase"
           >
             Demo
           </a>
@@ -47,7 +47,7 @@ function ProjectCard({ project }) {
             href={project.repoLink}
             target="_blank"
             rel="noreferrer"
-            className="px-2 py-1 bg-emerald-500 text-green-900 rounded font-extrabold uppercase"
+            className="px-2 py-1 bg-emerald-500 hover:bg-emerald-400 text-green-900 rounded font-extrabold uppercase"
           >
             Repo
           </a>
