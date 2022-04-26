@@ -1,44 +1,40 @@
 export const projects = [
   {
     id: 1,
-    title: "Movie app",
+    title: "Movie app.",
     secondaryTitle: "Alkemy Skill Up React I",
     date: "April 2022",
     tech: ["React", "React Router", "Tailwind"],
-    description: `This project was completed while following along the "Skill Up React I" module in Alkemy. It was a really good way to further absorb basic React concepts, also learnt new concepts such as: 1- What is React Router and how to use it. 2- How to restrict access to certain pages according if user is logged in or not. 3- Dynamic path with React Router.
-        
-    Please login with following credentials:
-    Username: challenge@alkemy.org  
-    Password: react`,
+    description: `Apart from practicing the basics in React, also learnt new concepts such as React Router Dom and how to use it, how to restrict access to certain pages according to login status.`,
+    reminder: true,
     demoLink: `https://movie-webapp-pied.vercel.app/`,
     repoLink: `https://github.com/Moonriz-ar/movie-webapp`,
+    imgPath: "/img/project-alkemy-skillup-i.png",
   },
   {
     id: 2,
-    title: "Recipe app",
+    title: "Recipe app.",
     secondaryTitle: "Alkemy React screening challenge",
     date: "February 2022",
     tech: ["React", "React Bootstrap"],
-    description: `This is a front end React challenge from Alkemy, the assignment is to develop a web application hotel menu using Spoonacular API.
+    description: `The assignment is to develop a web application hotel menu using Spoonacular API.
 
-    I learnt how to use JWT local storage for authentication, React useContext and useReducer for state management, Sweet Alert for pop up alerts, Formik for form validation.
-        
-    Please login with following credentials:
-    Username: challenge@alkemy.org  
-    Password: react`,
-    demoLink: `alkemy-challenge-react-7jtis9vzz-moonriz-ar.vercel.app`,
+    I learnt how to use JWT local storage for authentication, React useContext and useReducer for state management, Sweet Alert for pop up alerts, Formik for form validation.`,
+    reminder: true,
+    demoLink: `https://alkemy-challenge-react-7jtis9vzz-moonriz-ar.vercel.app/`,
     repoLink: `https://github.com/Moonriz-ar/alkemy-challenge-react`,
+    imgPath: "/img/project-alkemy-challenge.png",
   },
   {
     id: 3,
-    title: "Travel blog",
+    title: "Travel blog.",
     secondaryTitle: "Remake concept of my uncle's blog",
     date: "January 2022",
     tech: ["Next.js", "Ghost CMS", "Tailwind"],
-    description: `The blog backend uses Ghost headless CMS hosted on Heroku to have an intuitive dashboard. The front uses Next.js hosted on Vercel to consume the APIs provided by Ghost and generate the static files with ISE (Incremental server side rendering). It is a responsive website using Tailwind for styling.
-
-    This was not put in production, since after consideration, the risk of migrating from Weebly is too high and too much work.`,
+    description: `The blog backend uses Ghost headless CMS hosted on Heroku to have an intuitive dashboard. The front uses Next.js hosted on Vercel to consume the APIs provided by Ghost and generate the static files with ISR (Incremental Static Regeneration). It is a responsive website using Tailwind for styling.`,
+    reminder: false,
     demoLink: `https://leandro-cheng.vercel.app/`,
     repoLink: `https://github.com/Moonriz-ar/leandro-cheng`,
+    imgPath: "/img/project-travel-blog.png",
   },
 ];
