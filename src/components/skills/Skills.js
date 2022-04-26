@@ -93,7 +93,7 @@ function Skills() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <b className="text-emerald-400 underline font-bold underline-offset-2">
+                    <b className="text-emerald-400 hover:text-emerald-300 underline font-bold underline-offset-2">
                       English (C2 Proficient)
                     </b>
                   </a>
@@ -104,7 +104,7 @@ function Skills() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <b className="text-emerald-400 underline font-bold underline-offset-2">
+                    <b className="text-emerald-400 hover:text-emerald-300 underline font-bold underline-offset-2">
                       Digital House "Certified Tech Developer"
                     </b>
                   </a>
