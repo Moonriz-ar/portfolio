@@ -26,20 +26,30 @@ function ProjectCard({ project }) {
         />
       </div>
 
-      <div className="p-4 space-y-4 sm:basis-1/2">
-        <p className="text-emerald-400 font-bold">{project.date}</p>
+      <div className="p-4 space-y-5 sm:basis-1/2">
         <div>
+          <p className="text-emerald-400 font-bold">{project.date}</p>
           <h4 className="text-xl font-bold">{project.title}</h4>
-          <h5>{project.secondaryTitle}</h5>
+          <h5 className="text-slate-300">{project.secondaryTitle}</h5>
         </div>
-        <p className="text-slate-200">{project.description}</p>
+
+        <div className="flex space-x-2">
+          {project.tech.map((tech) => (
+            <div className="font-poppins px-2 py-1 bg-emerald-400 text-emerald-900 font-extrabold rounded text-xs sm:text-sm">
+              {tech}
+            </div>
+          ))}
+        </div>
+
+        <p className="text-slate-300">{project.description}</p>
         {project.reminder && <Reminder />}
+
         <div className="space-x-3 py-2 font-poppins">
           <a
             href={project.demoLink}
             target="_blank"
             rel="noreferrer"
-            className="px-2 py-1 bg-emerald-500 hover:bg-emerald-400 text-green-900 rounded font-extrabold uppercase"
+            className="px-2 py-1 border-slate-500 border-2 hover:border-slate-300 rounded uppercase"
           >
             Demo
           </a>
@@ -47,7 +57,7 @@ function ProjectCard({ project }) {
             href={project.repoLink}
             target="_blank"
             rel="noreferrer"
-            className="px-2 py-1 bg-emerald-500 hover:bg-emerald-400 text-green-900 rounded font-extrabold uppercase"
+            className="px-2 py-1 border-slate-500 border-2 hover:border-slate-300 rounded uppercase"
           >
             Repo
           </a>

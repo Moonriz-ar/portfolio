@@ -4,7 +4,7 @@ import Title from "../Title";
 function About() {
   return (
     <section id="about" className="px-5 flex justify-center">
-      <div className="flex flex-col justify-center space-y-3 px-5 bg-slate-50 w-full sm:max-w-3xl sm:px-16 pb-12">
+      <div className="flex flex-col justify-center space-y-3 px-5 bg-slate-50 w-full sm:max-w-3xl sm:px-16 py-10">
         <Title title="Who am I ?" />
         <p>
           I'm Andre, a Junior Front End developer located in{" "}
