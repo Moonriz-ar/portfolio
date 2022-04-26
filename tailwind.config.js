@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         "about-background": "url('../public/img/about-background.jpg')",
         "flower-background": "url('../public/img/flower-pattern.jpg')",
+        "contact-background": "url('../public/img/contact-background.jpg')",
       },
     },
   },

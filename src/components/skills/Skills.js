@@ -16,9 +16,9 @@ function Skills() {
         <div className="w-full sm:max-w-3xl px-5 sm:px-16 py-10  bg-slate-50 space-y-3">
           <Title title="Skills." />
 
-          <section className="text-slate-50 space-y-5 sm:max-w-sm flex flex-col mx-auto text-center">
+          <section className="text-slate-200 space-y-5 sm:max-w-sm flex flex-col mx-auto text-center">
             {/* FOUNDATIONAL SKILLS */}
-            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow">
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow ">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
                 Foundational
               </h4>
@@ -39,7 +39,7 @@ function Skills() {
             </article>
 
             {/* Frameworks */}
-            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow">
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow ">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
                 Frameworks
               </h4>
@@ -60,7 +60,7 @@ function Skills() {
             </article>
 
             {/* Testing */}
-            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow">
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow ">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
                 Testing
               </h4>
@@ -80,8 +80,8 @@ function Skills() {
               </section>
             </article>
 
-            {/* Testing */}
-            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow">
+            {/* Soft Skills */}
+            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow ">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
                 Soft Skills
               </h4>
