@@ -7,7 +7,7 @@ export const projects = [
     tech: ["React", "React Router", "Tailwind"],
     description: `Apart from practicing the basics in React, also learnt new concepts such as React Router Dom and how to use it, how to restrict access to certain pages according to login status.`,
     reminder: true,
-    demoLink: `https://movie-webapp-pied.vercel.app/`,
+    demoLink: `https://andrealinmovie.vercel.app/`,
     repoLink: `https://github.com/Moonriz-ar/movie-webapp`,
     imgPath: "/img/project-alkemy-skillup-i.png",
   },
@@ -21,7 +21,7 @@ export const projects = [
 
     I learnt how to use JWT local storage for authentication, React useContext and useReducer for state management, Sweet Alert for pop up alerts, Formik for form validation.`,
     reminder: true,
-    demoLink: `https://alkemy-challenge-react-7jtis9vzz-moonriz-ar.vercel.app/`,
+    demoLink: `https://andrealinrecipe.vercel.app/`,
     repoLink: `https://github.com/Moonriz-ar/alkemy-challenge-react`,
     imgPath: "/img/project-alkemy-challenge.png",
   },
