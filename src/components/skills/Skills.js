@@ -11,7 +11,10 @@ import { SiJest } from "react-icons/si";
 
 function Skills() {
   return (
-    <section id="skills" className="bg-flower-background min-h-screen bg-cover">
+    <section
+      id="skills"
+      className="bg-mobile-flower-background sm:bg-desktop-flower-background min-h-screen bg-cover"
+    >
       <div className="min-h-screen flex flex-col items-center px-5 bg-gradient-to-b from-white">
         <div className="w-full sm:max-w-3xl px-5 sm:px-16 py-10  bg-slate-50 space-y-3">
           <Title title="Skills." />

@@ -8,7 +8,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="bg-contact-background bg-cover min-h-screen"
+      className="bg-mobile-contact-background sm:bg-desktop-contact-background bg-cover min-h-screen"
     >
       <div className="min-h-screen bg-gradient-to-b from-white flex flex-col justify-start items-center px-5">
         <div className="w-full sm:max-w-3xl px-5 sm:px-16 pt-10 pb-14 rounded-b-3xl flex flex-col bg-slate-50">

@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="bg-flower-background min-h-screen bg-cover "
+      className="bg-mobile-flower-background sm:bg-desktop-flower-background min-h-screen bg-cover "
     >
       <div className="min-h-screen flex flex-col items-center bg-gradient-to-t from-white px-5">
         <div className="w-full sm:max-w-3xl px-5 sm:px-16 py-10  bg-slate-50 space-y-3 mx-auto">

@@ -8,9 +8,18 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        "about-background": "url('../public/img/about-background.jpg')",
-        "flower-background": "url('../public/img/flower-pattern.jpg')",
-        "contact-background": "url('../public/img/contact-background.jpg')",
+        "desktop-about-background":
+          "url('../public/img/desktop-about-background.jpg')",
+        "desktop-flower-background":
+          "url('../public/img/desktop-flower-pattern.jpg')",
+        "desktop-contact-background":
+          "url('../public/img/desktop-contact-background.jpg')",
+        "mobile-about-background":
+          "url('../public/img/mobile-about-background.jpg')",
+        "mobile-flower-background":
+          "url('../public/img/mobile-flower-pattern.jpg')",
+        "mobile-contact-background":
+          "url('../public/img/mobile-contact-background.jpg')",
       },
     },
   },

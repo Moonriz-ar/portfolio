@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="bg-about-background bg-cover min-h-screen bg-fixed"
+      className="bg-mobile-about-background sm:bg-desktop-about-background bg-cover min-h-screen bg-fixed"
     >
       <div className="min-h-screen bg-gradient-to-t from-white flex flex-col justify-end items-center px-5">
         <div className="w-full sm:max-w-3xl px-5 pt-24 pb-32 rounded-t-3xl flex flex-col items-center bg-slate-50 relative">
