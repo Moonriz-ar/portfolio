@@ -1,8 +1,8 @@
-import React from "react";
-import Title from "../Title";
+import React from 'react';
+import Title from '../Title';
 
-import { BsGithub } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 
 function Contact() {
   return (
@@ -15,20 +15,21 @@ function Contact() {
           <Title title="Contact." />
 
           {/* Contact me card */}
-          <section className="text-slate-200 space-y-5 sm:w-1/2 flex flex-col">
+          <section className="text-slate-200 space-y-5 sm:w-2/3 flex flex-col">
             <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-5 drop-shadow">
               <div>
                 <h4 className="font-square text-5xl am:text-4xl font-bold pb-1">
                   Andrea Lin
                 </h4>
-                <p className="text-slate-300">Jr. Front End Developer</p>
+                <p className="text-slate-300">Jr Front End Developer</p>
                 <p className="text-slate-300">
-                  Javascript | React | Tailwind | Redux
+                  Javascript | React | Redux | Material UI
                 </p>
               </div>
 
               <section className="mt-7">
                 <ul className="flex flex-col space-y-2">
+                  <li>Email: andre93_lin@hotmail.com</li>
                   <li>
                     <a
                       className="flex items-center space-x-2 hover:text-slate-50 max-w-max"

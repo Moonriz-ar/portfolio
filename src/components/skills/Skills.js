@@ -1,13 +1,14 @@
-import React from "react";
-import Title from "../Title";
+import React from 'react';
+import Title from '../Title';
 
-import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3 } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiJest } from "react-icons/si";
+import { AiFillHtml5 } from 'react-icons/ai';
+import { DiCss3 } from 'react-icons/di';
+import { IoLogoJavascript } from 'react-icons/io';
+import { FaReact } from 'react-icons/fa';
+import { SiMaterialui } from 'react-icons/si';
+import { SiJest } from 'react-icons/si';
+import { SiRedux } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
 
 function Skills() {
   return (
@@ -44,7 +45,7 @@ function Skills() {
             {/* Frameworks */}
             <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow ">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
-                Frameworks
+                Frameworks & Libraries
               </h4>
               <section className="flex items-end justify-center space-x-2">
                 <div className="flex flex-col items-center">
@@ -54,6 +55,10 @@ function Skills() {
                 <div className="flex flex-col items-center">
                   <SiRedux size={75} />
                   <p className="pt-2">Redux</p>
+                </div>
+                <div className="flex flex-col items-center">
+                  <SiMaterialui size={75} />
+                  <p className="pt-2">Material UI</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <SiTailwindcss size={75} />
@@ -88,7 +93,7 @@ function Skills() {
               <h4 className="text-lg pb-3 font-bold ">More about me.</h4>
               <section className="flex justify-start text-left">
                 <p>
-                  Fluent in{" "}
+                  Fluent in{' '}
                   <a
                     href="https://www.efset.org/cert/ccaeDA"
                     target="_blank"
@@ -98,18 +103,7 @@ function Skills() {
                       English (C2 Proficient)
                     </b>
                   </a>
-                  . Team player. Will keep learning! Currently accelerating my
-                  skills in the{" "}
-                  <a
-                    href="https://www.alkemy.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <b className="text-emerald-400 hover:text-emerald-300 underline font-bold underline-offset-2">
-                      Front End React Skill Up @Alkemy
-                    </b>
-                  </a>{" "}
-                  until June 2022. Currently scholarship student  
+                  . Team player. Will keep learning! Currently student  
                   <a
                     href="https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer"
                     target="_blank"
