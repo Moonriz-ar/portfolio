@@ -7,7 +7,7 @@ function About() {
       <div className="flex flex-col justify-center space-y-3 px-5 bg-slate-50 w-full sm:max-w-3xl sm:px-16 py-10">
         <Title title="Who am I ?" />
         <p>
-          I'm Andrea, a junior front end developer located in{' '}
+          I'm Andrea, a front end developer located in{' '}
           <b className="text-slate-700">Buenos Aires, Argentina</b>.
         </p>
         <p>
@@ -18,9 +18,10 @@ function About() {
           decisions.
         </p>
         <p>
-          Previously I had 7 years work experience as sales account manager in
-          the IT industry, where I learnt a lot about{' '}
-          <b className="text-slate-700">teamwork and working on objectives</b>.
+          Since May 2021, studying in a{' '}
+          <b className="text-slate-700">Full-Stack program</b> called Certified
+          Tech Developer in Digital House. The graduation date is set to be on
+          December 2023.
         </p>
       </div>
     </section>

@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import { AiFillHome } from "react-icons/ai";
-import { FaUser } from "react-icons/fa";
-import { BsFillBookFill } from "react-icons/bs";
-import { FaLaptopCode } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { AiFillHome } from 'react-icons/ai';
+import { FaUser } from 'react-icons/fa';
+import { BsFillBookFill } from 'react-icons/bs';
+import { FaLaptopCode } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import { GiSuitcase } from 'react-icons/gi';
 
 const Nav = () => {
   return (
@@ -16,6 +17,13 @@ const Nav = () => {
       <a href="#about" className="flex flex-col items-center hover:text-white">
         <FaUser />
         <p>About</p>
+      </a>
+      <a
+        href="#experience"
+        className="flex flex-col items-center hover:text-white"
+      >
+        <GiSuitcase />
+        <p>Experience</p>
       </a>
       <a href="#skills" className="flex flex-col items-center hover:text-white">
         <BsFillBookFill />

@@ -21,7 +21,7 @@ function Contact() {
                 <h4 className="font-square text-5xl am:text-4xl font-bold pb-1">
                   Andrea Lin
                 </h4>
-                <p className="text-slate-300">Jr Front End Developer</p>
+                <p className="text-slate-300">Front End Developer</p>
                 <p className="text-slate-300">
                   Javascript | React | Redux | Material UI
                 </p>

@@ -1,5 +1,5 @@
-import React from "react";
-import { AiOutlineArrowDown } from "react-icons/ai";
+import React from 'react';
+import { AiOutlineArrowDown } from 'react-icons/ai';
 
 function Hero() {
   return (
@@ -19,11 +19,11 @@ function Hero() {
             Andrea Lin
           </h1>
           <h3 className="uppercase font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-500  to-gray-900 mb-5">
-            Jr. Front End Developer
+            Front End Developer
           </h3>
 
           <p className="flex items-center">
-            Scroll down{" "}
+            Scroll down{' '}
             <span className="animate-bounce ml-3">
               <AiOutlineArrowDown />
             </span>
