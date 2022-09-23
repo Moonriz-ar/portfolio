@@ -23,7 +23,7 @@ const Nav = () => {
         className="flex flex-col items-center hover:text-white"
       >
         <GiSuitcase />
-        <p>Experience</p>
+        <p>Work</p>
       </a>
       <a href="#skills" className="flex flex-col items-center hover:text-white">
         <BsFillBookFill />
