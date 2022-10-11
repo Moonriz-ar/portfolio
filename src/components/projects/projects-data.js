@@ -4,7 +4,7 @@ export const projects = [
     title: 'Github API app.',
     secondaryTitle: 'Digital House Frontend III',
     date: 'September 2022',
-    tech: ['Typescript', 'React Router Dom 6'],
+    tech: ['Typescript', 'Material UI'],
     description: `Enter a Github username (for example my username: Moonriz-ar), and see the user's bio info and repositories. Practiced using Typescript in a React project, custom hooks, useContext, useCallback.`,
     reminder: false,
     demoLink: 'https://gitpanda.vercel.app/login',
