@@ -1,14 +1,14 @@
-import React from 'react';
-import Title from '../Title';
+import React from "react";
+import Title from "../Title";
 
-import { AiFillHtml5 } from 'react-icons/ai';
-import { DiCss3 } from 'react-icons/di';
-import { IoLogoJavascript } from 'react-icons/io';
-import { FaReact } from 'react-icons/fa';
-import { SiMaterialui } from 'react-icons/si';
-import { SiJest } from 'react-icons/si';
-import { SiRedux } from 'react-icons/si';
-import { SiTailwindcss } from 'react-icons/si';
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaReact } from "react-icons/fa";
+import { SiMaterialui } from "react-icons/si";
+import { SiJest } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 
 function Skills() {
   return (
@@ -68,7 +68,7 @@ function Skills() {
             </article>
 
             {/* Testing */}
-            <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow ">
+            {/* <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-4 drop-shadow ">
               <h4 className="text-lg pb-5 font-bold underline underline-offset-4">
                 Testing
               </h4>
@@ -86,14 +86,14 @@ function Skills() {
                   <p className="pt-2">Testing Library</p>
                 </div>
               </section>
-            </article>
+            </article> */}
 
             {/* More about me */}
             <article className="bg-gradient-to-r from-slate-900  to-slate-600 rounded-xl p-5 drop-shadow ">
-              <h4 className="text-lg pb-3 font-bold ">More about me.</h4>
+              <h4 className="text-lg pb-4 font-bold ">More about me.</h4>
               <section className="flex justify-start text-left">
                 <p>
-                  Fluent in{' '}
+                  Fluent in{" "}
                   <a
                     href="https://www.efset.org/cert/ccaeDA"
                     target="_blank"
@@ -103,17 +103,8 @@ function Skills() {
                       English (C2 Proficient)
                     </b>
                   </a>
-                  . Team player. Will keep learning! Currently student  
-                  <a
-                    href="https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <b className="text-emerald-400 hover:text-emerald-300 underline font-bold underline-offset-2">
-                      @Digital House "Certified Tech Developer"
-                    </b>
-                  </a>
-                  , classes every night until December 2023.
+                  . Team player. I like to cook, my favourite dishes are
+                  milanesa and taiwanese beef noodle soup.
                 </p>
               </section>
             </article>
